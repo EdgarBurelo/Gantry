@@ -1,0 +1,30 @@
+@use "src/Components/Styles/_grid" as *;
+@use "src/Components/Styles/_colors" as *;
+
+.companyItem {
+  display: flex;
+  padding: $unit;
+  margin: 0.5 * $unit 0;
+  border-radius: 0.5 * $unit;
+  background-color: $grey;
+  justify-content: flex-start;
+  width: 50%;
+  &>div:first-child {
+    flex-basis: 25%;
+    & > img {
+      border-radius: $unit * 0.5
+    };
+  }
+}
+
+.companyRow {
+  margin-left: $unit;
+  display: flex;
+  flex-direction: column;
+  & > * {
+    margin: $unit * 0.3 0;
+  }
+  & h3 {
+    margin-bottom: $unit * 0.5;
+  }
+}

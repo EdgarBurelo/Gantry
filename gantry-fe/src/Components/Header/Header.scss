@@ -1,0 +1,6 @@
+@use "src/Components/Styles/_grid" as *;
+
+.header {
+  font-weight: bold;
+  margin-bottom: $unit;
+}

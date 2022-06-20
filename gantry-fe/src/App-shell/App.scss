@@ -1,0 +1,30 @@
+@use 'src/Components/Styles/_typography.scss' as *;
+@use 'src/Components/Styles/_colors' as *;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-family;
+  color: $white;
+}
+
+html {
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.content-outer {
+  overflow-y: auto;
+  height: 100vh;
+  background-color: $dark;
+}

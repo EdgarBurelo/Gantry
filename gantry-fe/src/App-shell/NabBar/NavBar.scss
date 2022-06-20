@@ -1,0 +1,31 @@
+@use "src/Components/Styles/_colors.scss" as *;
+@use 'src/Components/Styles/_grid.scss' as *;
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: $unit * 2;
+    background-color: $dark-grey;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+
+    & > p {
+        margin-left: 16px;
+    }
+
+    & a:visited, a, a.selected {
+        color: $white;
+        text-decoration: none;
+        &.selected {
+            color: $violet;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@use 'src/Components/Styles/_colors.scss' as *;
+@use 'src/Components/Styles/_grid.scss' as *;
+
+.page {
+    width: 100%;
+    height: auto;
+    padding: $unit * 2;
+    background-color: $dark;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Macaroni Systems",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "https://random.imagecdn.app/110/75",
+    "specialty": "plumber",
+    "city": "Berlin"
+  },
+  {
+    "id": 2,
+    "name": "Light Factory",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "https://placekitten.com/g/111/75",
+    "specialty": "plumber",
+    "city": "London"
+  },
+  {
+    "id": 3,
+    "name": "Running Signposts Systems",
+    "description": "",
+    "logo": "https://placekitten.com/g/110/75",
+    "specialty": "electrical",
+    "city": "New York"
+  },
+  {
+    "id": 4,
+    "name": "Topology Industries",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo": "https://placekitten.com/g/109/75",
+    "specialty": "excavation",
+    "city": "Paris"
+  },
+  {
+    "id": 5,
+    "name": "Overlook Works",
+    "description": "some company",
+    "logo": "https://placekitten.com/g/107/75",
+    "specialty": "electrical",
+    "city": "Dubai"
+  },
+  {
+    "id": 6,
+    "name": "Stuffy Flux",
+    "description": "some company",
+    "logo": "https://placekitten.com/g/108/75",
+    "specialty": "electrical",
+    "city": "Tokyo"
+  }
+]

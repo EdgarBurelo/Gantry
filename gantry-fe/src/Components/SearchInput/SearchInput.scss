@@ -1,0 +1,14 @@
+@use "src/Components/Styles/_grid" as *;
+@use "src/Components/Styles/_colors" as *;
+
+.searchInput {
+  margin: $unit 0;
+  & > input {
+    border-color: $violet;
+    background-color: $bright-grey;
+    padding: $unit * 0.5 $unit * 0.5;
+    border-radius: $unit *  0.5;
+    width: 100%;
+    color: $dark;
+  }
+}
